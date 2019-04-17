@@ -107,7 +107,7 @@ if __name__ == "__main__":
                 if sun_is_down(q2_T, observatory):
                     q2_epochs[target_id].append(q2_T)
                     chron[q2_T.jd] = "{}  {}  q2".format(q2_T.datetime, target_id)
-                    print("\t{} q1".format(q2_T.datetime))
+                    print("\t{} q2".format(q2_T.datetime))
             i += 1
             current_epoch = epoch_start + i*period
 
